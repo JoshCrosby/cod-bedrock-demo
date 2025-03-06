@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cod-bedrock-demo"
+version = "0.1.0"
+description = "test chain of thought version chain of draft approach"
+authors = ["Josh Crosby <jcrosby@innovativesol.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+boto3 = "^1.36.1"   
+dspy = {version = "^2.6.10", extras = ["openai", "anthropic", "bedrock"]}
+matplotlib = "^3.7.2"
+tqdm = "^4.67.0"
+datasets = "^2.14.5"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
