@@ -2,7 +2,7 @@
 name = "cod-bedrock-demo"
 version = "0.1.0"
 description = "test chain of thought version chain of draft approach"
-authors = ["Josh Crosby <jcrosby@innovativesol.com>"]
+authors = ["Josh Crosby <joshdcrosby@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
